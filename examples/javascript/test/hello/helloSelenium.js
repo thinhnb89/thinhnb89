@@ -5,5 +5,5 @@ const {Builder, Browser} = require('selenium-webdriver');
 
   await driver.get('https://selenium.dev');
 
-  await driver.quit();
+ // await driver.quit();
 })();
